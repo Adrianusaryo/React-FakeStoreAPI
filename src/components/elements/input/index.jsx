@@ -1,5 +1,5 @@
 import Label from "./label";
-import Input from "./Input";
+import Input from "./input";
 import { forwardRef } from "react";
 const InputForm = forwardRef((props, ref) => {
   const { label, type, name, placeholder } = props;
