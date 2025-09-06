@@ -1,5 +1,5 @@
 import InputForm from "../elements/input";
-import Button from "../elements/button";
+import Button from "../elements/Button";
 import { useEffect, useRef, useState } from "react";
 import { login } from "../../services/auth.service";
 

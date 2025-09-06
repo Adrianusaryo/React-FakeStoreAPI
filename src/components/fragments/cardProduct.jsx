@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../elements/button";
+import Button from "../elements/Button";
 import { useDispatch } from "react-redux";
 import { addToCart, removeFromCart } from "../../redux/slice/cartSlice";
 import { useContext } from "react";
