@@ -1,10 +1,6 @@
 import CardProduct from "../fragments/cardProduct";
-import Button from "../elements/button";
-import Counter from "../fragments/Counter";
 import { use, useContext, useEffect, useRef, useState } from "react";
 import { getProducts } from "../../services/products.service";
-import { getUsername } from "../../services/auth.service";
-import { data } from "react-router-dom";
 import { useLogin } from "../../hooks/useLogin";
 import TableCart from "../fragments/TableCart";
 import Navbar from "../layouts/Navbar";
